@@ -96,7 +96,7 @@ This project is a full-stack web application that visualizes e-commerce data fro
    ## Access URLs
    - **Backend URL**
      ```bash
-     `https://ecommerce-data-visualization-1.onrender.com`  
+     `https://ecommerce-data-visualization-backend-1.onrender.com`  
    - **Frontend URL**
      ```bash
-     `https://ecommerce-data-visualization-3.onrender.com`
+     `https://ecommerce-data-visualization-client-1.onrender.com`
