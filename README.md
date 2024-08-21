@@ -56,28 +56,40 @@ This project is a full-stack web application that visualizes e-commerce data fro
    ```bash
    https://ecommerce-data-visualization-1.onrender.com
  ## Endpoints
-   1 **Total Sales Over Time**
+   1. **Total Sales Over Time**
      `GET /api/sales-over-time`
    - Query Parameters:
       ```bash
       `interval`: `daily`,`monthly`,`quarterly`,`yearly`
-   2 **Sales Growth Rate Over Time**
+   2. **Sales Growth Rate Over Time**
      `GET /api/sales-growth-rate`
    - Query Parameters:
       ```bash
       `interval`: `daily`,`monthly`,`quarterly`,`yearly`
-   3 **New Customers Added Over Time**
+   3. **New Customers Added Over Time**
      `GET /api/new-customers-over-time`
    - Query Parameters:
       ```bash
       `interval`: `daily`,`monthly`,`quarterly`,`yearly`
-   4 **Number of Repeat Customers**
+   4. **Number of Repeat Customers**
      `GET /api/repeat-customers`
    - Query Parameters:
       ```bash
       `interval`: `daily`,`monthly`,`quarterly`,`yearly`
-   5 **Geographical Distribution of Customers**
+   5. **Geographical Distribution of Customers**
      `GET /api/geographical-distribution`
      
-   6 **Customer Lifetime Value by Cohorts**
+   6. **Customer Lifetime Value by Cohorts**
      `GET /api/customer-lifetime-value-cohorts`
+
+   ## Testing the API endpoints with Postman
+   1. **Import postman collection**
+      ```bash
+   2. **Run requests:**
+      - Open the postman app.
+      - Import the collection JSON file into Postman.
+      - Set up environment variables if needed.
+      - Run the requests to test the API endpoints.
+   ## Access URLs
+   -**Backend URL:** https://ecommerce-data-visualization-1.onrender.com
+   -**Frontend URL:** https://ecommerce-data-visualization-3.onrender.com
