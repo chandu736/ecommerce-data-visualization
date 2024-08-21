@@ -25,8 +25,5 @@ This project is a full-stack web application that visualizes e-commerce data fro
 
 ## Backend setup
  - Navigate to backend directory
- - ```bash
+   ```bash
     npm install
-
-
-      
