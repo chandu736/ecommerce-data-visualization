@@ -85,11 +85,13 @@ This project is a full-stack web application that visualizes e-commerce data fro
    ## Testing the API endpoints with Postman
    1. **Import postman collection**
       ```bash
+      https://github.com/chandu736/ecommerce-data-visualization/blob/master/Data-Visualization-Task.postman_collection.json
    2. **Run requests:**
       - Open the postman app.
       - Import the collection JSON file into Postman.
       - Set up environment variables if needed.
       - Run the requests to test the API endpoints.
    ## Access URLs
+   
    -**Backend URL:** https://ecommerce-data-visualization-1.onrender.com
    -**Frontend URL:** https://ecommerce-data-visualization-3.onrender.com
