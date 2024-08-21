@@ -60,4 +60,23 @@ This project is a full-stack web application that visualizes e-commerce data fro
      `GET /api/sales-over-time`
    - Query Parameters:
       ```bash
-      `interval`: `daily`,`monthly`,`quarterly`,`yearly` 
+      `interval`: `daily`,`monthly`,`quarterly`,`yearly`
+   2 **Sales Growth Rate Over Time**
+     `GET /api/sales-growth-rate`
+   - Query Parameters:
+      ```bash
+      `interval`: `daily`,`monthly`,`quarterly`,`yearly`
+   3 **New Customers Added Over Time**
+     `GET /api/new-customers-over-time`
+   - Query Parameters:
+      ```bash
+      `interval`: `daily`,`monthly`,`quarterly`,`yearly`
+   4 **Number of Repeat Customers**
+     `GET /api/repeat-customers`
+   - Query Parameters:
+      ```bash
+      `interval`: `daily`,`monthly`,`quarterly`,`yearly`
+   5 **Geographical Distribution of Customers**
+     `GET /api/geographical-distribution`
+   6 *Customer Lifetime Value by Cohorts*
+     `GET /api/customer-lifetime-value-cohorts`
