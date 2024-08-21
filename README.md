@@ -22,3 +22,8 @@ This project is a full-stack web application that visualizes e-commerce data fro
 1. Clone the repository:
    ```bash
    git clone https://github.com/chandu736/ecommerce-data-visualization.git
+
+## Backend setup
+ -- Navigate to backend directory 
+     cd backend
+   npm install
