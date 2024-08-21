@@ -56,9 +56,9 @@ This project is a full-stack web application that visualizes e-commerce data fro
    ```bash
    https://ecommerce-data-visualization-1.onrender.com
  ## Endpoints
-   - Total Sales Over Time
+   - **Total Sales Over Time**
      ```bash
      `GET /api/sales-over-time`
-     Query Parameters:
+   - Query Parameters:
       ```bash
       `interval`: `daily`,`monthly`,`quarterly`,`yearly` 
