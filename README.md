@@ -92,6 +92,8 @@ This project is a full-stack web application that visualizes e-commerce data fro
       - Set up environment variables if needed.
       - Run the requests to test the API endpoints.
    ## Access URLs
-   
-   -**Backend URL:** https://ecommerce-data-visualization-1.onrender.com
-    -**Frontend URL:** https://ecommerce-data-visualization-3.onrender.com
+   - **Geographical Distribution of Customers**
+     `GET /api/geographical-distribution`
+     
+   - **Customer Lifetime Value by Cohorts**
+     `GET /api/customer-lifetime-value-cohorts`
