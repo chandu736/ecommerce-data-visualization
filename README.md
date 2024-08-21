@@ -26,13 +26,39 @@ This project is a full-stack web application that visualizes e-commerce data fro
 ## Backend setup
  - Navigate to backend directory
    ```bash
-    npm install
+    cd backend
  - Install dependencies
    ```bash
    npm install
- - set up environment variables
+ - Set up environment variables
    ```bash
    MONGDB_URI: mongodb+srv://db_user_read:LdmrVA5EDEv4z3Wr@cluster0.n10ox.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
  - Start the backend server
    ```bash
    npm start
+
+ ## Frontend setup
+ - Navigate to frontend directory
+   ```bash
+    cd ../client
+ - Install dependencies
+   ```bash
+   npm install
+ - Build the frontend
+   ```bash
+   npm run build
+ - Start the frontend
+   ```bash
+   npm start  
+
+## API Endpoints
+ - Base URL
+   ```bash
+   https://ecommerce-data-visualization-1.onrender.com
+ - Endpoints
+   - Total Sales Over Time
+     ```bash
+     `GET /api/sales-over-time`
+    - Query Parameters:
+      ```bash
+      `interval`: `daily`,`monthly`,`quarterly`,`yearly` 
