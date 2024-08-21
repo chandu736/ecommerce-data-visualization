@@ -91,6 +91,8 @@ This project is a full-stack web application that visualizes e-commerce data fro
       - Import the collection JSON file into Postman.
       - Set up environment variables if needed.
       - Run the requests to test the API endpoints.
+   ## Deployment
+   - Deployed in Rendr
    ## Access URLs
    - **Backend URL**
      ```bash
