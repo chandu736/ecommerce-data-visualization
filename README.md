@@ -92,7 +92,7 @@ This project is a full-stack web application that visualizes e-commerce data fro
       - Set up environment variables if needed.
       - Run the requests to test the API endpoints.
    ## Deployment
-   - Deployed in Render
+   - Deployed on Render
    ## Access URLs
    - **Backend URL**
      ```bash
