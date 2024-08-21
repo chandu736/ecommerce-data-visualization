@@ -10,9 +10,9 @@ const NewCustomersOverTime = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [interval, setInterval] = useState('monthly');
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/new-customers-over-time?interval=${interval}`)
+    axios.get(`${apiUrl}/api/new-customers-over-time?interval=${interval}`)
       .then(response => {
         const newCustomersData = response.data || [];
         console.log('API response data:', newCustomersData);
