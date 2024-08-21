@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const cors = require('cors');
 
 const allowedOrigins = [process.env.FRONTEND_URL];
 
