@@ -9,9 +9,9 @@ ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Tooltip,
 const CustomerLifetimeValueByCohorts = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
-    axios.get('http://localhost:5000/api/customer-lifetime-value-cohorts')
+    axios.get(`${apiUrl}/api/customer-lifetime-value-cohorts`)
       .then(response => {
         const clvData = response.data || [];
         console.log('API response data:', clvData);
