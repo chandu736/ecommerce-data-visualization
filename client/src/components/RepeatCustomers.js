@@ -10,9 +10,9 @@ const RepeatCustomers = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [interval, setInterval] = useState('monthly');
-
+  const apiUrl = process.env.REACT_APP_API_URL;
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/repeat-customers?interval=${interval}`)
+    axios.get(`${apiUrl}/api/repeat-customers?interval=${interval}`)
       .then(response => {
         const repeatCustomersData = response.data || [];
         console.log('API response data:', repeatCustomersData);
