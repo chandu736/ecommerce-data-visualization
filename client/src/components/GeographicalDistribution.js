@@ -93,9 +93,9 @@ const simpleDotIcon = new L.Icon({
 const GeographicalDistribution = () => {
     const [locations, setLocations] = useState([]);
     const [error, setError] = useState(null);
-
+    const apiUrl = process.env.REACT_APP_API_URL;
     useEffect(() => {
-        axios.get('http://localhost:5000/api/geographical-distribution')
+        axios.get(`${apiUrl}/api/geographical-distribution`)
             .then(response => {
                 const customerData = response.data || [];
                 console.log('API response data:', customerData);
