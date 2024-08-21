@@ -78,5 +78,6 @@ This project is a full-stack web application that visualizes e-commerce data fro
       `interval`: `daily`,`monthly`,`quarterly`,`yearly`
    5 **Geographical Distribution of Customers**
      `GET /api/geographical-distribution`
-   6 *Customer Lifetime Value by Cohorts*
+     
+   6 **Customer Lifetime Value by Cohorts**
      `GET /api/customer-lifetime-value-cohorts`
